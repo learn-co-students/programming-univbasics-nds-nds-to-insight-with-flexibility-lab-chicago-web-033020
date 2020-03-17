@@ -1,0 +1,16 @@
+index = 0
+
+while index < source.length do
+  inner_index = 0
+  while inner_index < source[index][:movies].length do 
+  
+    source[index][:movies][inner_index][:director_name] = source[index][:name]
+    inner_index += 1
+  end
+  index += 1
+end 
+
+
+
+
+source[index][:movies][inner_index][:director_name] = source[index][:name]
