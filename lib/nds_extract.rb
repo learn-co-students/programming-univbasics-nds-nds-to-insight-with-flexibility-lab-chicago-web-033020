@@ -91,6 +91,8 @@ def gross_per_studio(collection)
     else 
       studio_hash[studio] += gross
     end 
+    
+    collection_index += 1
   end 
   
   studio_hash
